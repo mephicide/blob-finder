@@ -4,18 +4,22 @@ A sample program for finding a 'blob' : a contiguous collection of 1's in a bina
 
 e.g.:
 
-0 0 0 0
-1 1 1 0
-0 0 1 0
-1 1 1 0
+<pre>
+ 0 0 0 0
+ 1 1 1 0
+ 0 0 1 0
+ 1 1 1 0
+</pre>
 
 Contains a 3x3 blob in a 4x4 space, but:
 
-0 0 0 0 0
-1 1 1 0 0
-0 0 1 0 0
-0 0 1 0 0
-1 1 1 0 0
+<pre>
+ 0 0 0 0 0
+ 1 1 1 0 0
+ 0 0 1 0 0
+ 0 0 1 0 0
+ 1 1 1 0 0
+</pre>
 
 contains a non-rectangular blob with 8 member cells (all of the 1's) because the 0's in the center are not directly surrounded by 1's.
 
